@@ -2,7 +2,7 @@ import React from 'react'
 import './InnerCategorycss.css'
 
 
-const InnerCatComp = ({src,name}) => {
+const InnerCatComp = ({src,name,id}) => {
 
   return (
     <>
@@ -15,6 +15,7 @@ const InnerCatComp = ({src,name}) => {
         />
         </div>
         <div>
+          {/* <p>{id}</p> */}
             <h6>{name}</h6>
         </div>
     </div>

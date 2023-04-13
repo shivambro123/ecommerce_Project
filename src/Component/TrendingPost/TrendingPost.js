@@ -26,14 +26,22 @@ const TrendingPost = () => {
       className='trendimgsize'
       />
       </div>
+      <div className='trendpostdata'>
+    <h3>The Oversized Alpaca Crew</h3>
+    <NavLink>Shop now</NavLink>
       </div>
-      <div className='innerTrenPost'>
+      </div>
+      <div className='innerTrenPost'> 
       <div className='trendimage'>
       <img
       src={megastore_box_02}
       alt="text"
       className='trendimgsize'
       />
+      </div>
+      <div className='trendpostdata'>
+    <h3>The Premium-Weight Crew</h3>
+    <NavLink>Shop now</NavLink>
       </div>
 </div>
 <div className='innerTrenPost'>
@@ -44,7 +52,12 @@ const TrendingPost = () => {
       className='trendimgsize'
       />
       </div>
+      <div className='trendpostdata'>
+    <h3>The Forever High-Top</h3>
+    <NavLink>Shop now</NavLink>
+      </div>
 </div>
+
 </div>
     </div>
     </div>  

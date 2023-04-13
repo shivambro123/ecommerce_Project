@@ -30,7 +30,7 @@ const CategoryComp = () => {
           <div className='innercategoryWrapper'>
             {
               apidata.map((val) => {
-                return <InnerCatComp src={val.img} name={val.name} />
+                return <InnerCatComp src={val.image} id={val._id} name={val.name} />
 
               })
             }          

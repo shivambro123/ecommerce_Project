@@ -3,8 +3,7 @@
     width: 100%;
     background-image: url('E:\TryCatch\ecommerceapp\src\Component\images\megastore.jpg');  
     background-size: cover;
-     background-position: center;
-     
+    background-position: center;   
 } 
 .content_wrapper{
     display: flex;

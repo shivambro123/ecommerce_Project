@@ -1,0 +1,55 @@
+.trendweek{
+    padding: 10px 90px;
+}
+.trendweekwrapper{
+    background-color: white;
+    width: 100%;
+    height: 45vh;
+    display: flex;
+}
+.trendthumb{
+flex: 0 0 33%;
+}
+.trendcarousel{
+    flex: 0 0 67%;
+}
+.trendimage{
+    height: 100%;
+    width: 100%;
+}
+.megasize{
+    height: 100%;
+    width: 100%; 
+    position: relative;
+}
+.overlaytrend{
+    height: 45vh;
+    width: 100%;
+
+    position: absolute;
+    top:0;
+    padding:2rem 1.25rem;
+    text-align: left;
+
+}
+.overlaytrend h2{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.overlaytrend p{
+    padding-top: 1.3rem;
+}
+.overlaytrend button{
+    border: none;
+    font-size: 14px;
+    padding: 8px 28px;
+    margin-top: 4rem;
+    font-weight: 600;
+    background-color: white;
+}
+.overlaytrend button:hover{
+    background-color: black;
+    color: white;
+    outline: 3px solid black;
+    border: 1px solid;
+}

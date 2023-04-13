@@ -15,6 +15,7 @@ const NavComp = () => {
     }
   return (
     <>
+    <div className='navwrapper'>
         <div className='navbar container gx-4'>
             <div className='logo'>
             <img    
@@ -57,6 +58,7 @@ const NavComp = () => {
               }  */}
     
             </ul>
+        </div>
         </div>
     </>     
   )

@@ -4,6 +4,7 @@ import Hero from '../Hero/Hero'
 import DisPoster from '../DiscountPoster/DisPoster'
 import CategoryComp from '../Category/CategoryComp'
 import TrendingPost from '../TrendingPost/TrendingPost'
+import TrendWeek from '../TrendingPost/TrendWeek/TrendWeek'
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
     <DisPoster/>
     <CategoryComp/>
     <TrendingPost/>
+    <TrendWeek/>
     </div>
   )
 }
