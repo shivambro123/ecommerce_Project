@@ -1,3 +1,3 @@
 export function abc(){
-    alert("123")
+    console.log("123")
 }
