@@ -1,0 +1,16 @@
+.innercatcomp{
+    height: 25vh;
+    width: 100%;
+    max-width: 14.22%;
+    border: 1px solid;
+    padding: 27px 20px;
+}
+.Innercontent{
+    
+}
+.catImage{
+    height: 13vh;
+    width: 100%;
+    max-width: 70%;
+    border-radius: 50%;
+}

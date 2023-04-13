@@ -1,0 +1,135 @@
+.navbar{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    padding: 10px 100px;
+}
+.logo{
+    display: inline-flex;
+    align-items: center;    
+}
+.logo-size{
+    height: 44px;
+    width: 166px;
+}
+.input-div{
+    border: 1px solid #e3e0e0;
+    height: 100%;
+    width: 100%;
+    max-width: 35rem;
+    text-align: left;
+    display: flex;
+
+}
+.input_div{
+    height: 100%;
+    width: 95%;
+    padding: 7px 5px;
+}
+.input_div select{
+    height: 100%;
+    border: none;
+    border-right: 1px solid ;
+}
+.input_div input{
+    height: 100%;
+    width: 100%;
+    max-width:75%;
+    border: none;
+    outline: none;
+    padding: 0 10px;
+}
+.searchdiv{
+   height: 100%; 
+   width: 100%;
+   max-width: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center  ;
+   background-color: black;
+   color: white;
+   font-weight: 600;
+}
+.searchdiv i{
+    font-size: 20px;
+}
+.user-div{
+    height: 100%;
+   width: 100%;
+   max-width: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user-div i{
+    font-size: 24px;
+    font-weight: 700;
+}   
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 28.4%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border-right: 1px solid #dad7d7;
+    cursor: pointer;
+}
+.shop:hover{
+    background-color: white;
+    color: black;
+}
+.shop h4{
+    text-align: center;
+    font-size: 20px;
+}
+.list{
+width: 100%;
+max-width: 40%;
+margin-right: 220px;
+}
+.list ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.list ul li{
+    margin: auto;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.list ul li:after{
+    /* content:"\f107"; */
+    content:'^';
+    position: absolute;
+    margin: 0 3px;
+    /* top:1px; */
+     font-size: 12px;
+}
+.overList{
+    height: 50vh;
+    width: 100%;
+    max-width: 20.5%;
+    /* border: 1px solid; */
+    position: absolute;
+    left: 204px;
+    background-color: white;
+}
+.overList ul{
+    list-style-type: none;
+    margin: 0 20px;
+
+    padding: 0;
+}
+.overList ul li{
+    padding: 10px 5px;
+    /* background-color: black; */
+    border-bottom: 1px solid;
+}
+.overList ul li:hover{
+    background-color: black;
+   color: white;
+}

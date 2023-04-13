@@ -1,0 +1,38 @@
+.trendpostwrapper{
+    padding: 10px 90px;
+    
+}
+.trendingPoster{
+    width: 100%;
+    height: 45vh;
+    background-color: white;
+}
+.trendpostheader{
+    padding: 10px 10px 4px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.trendcontent{
+    display: flex;
+    justify-content: space-between;
+}
+.trendpostheader h3{
+    font-weight: 700;
+    font-size: 1.7rem;
+    color: black;   
+}
+.innerTrenPost{
+    height: 27vh;
+    width: 100%;
+    max-width: 30%;
+    border: 1px solid;
+}
+.trendimage{
+    height: 100%;
+    width: 100%;
+}
+.trendimgsize{
+    height: 100%;
+    width: 100%;
+}
