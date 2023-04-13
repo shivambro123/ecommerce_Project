@@ -9,13 +9,17 @@ const CategoryComp = () => {
   const dispatch = useDispatch()
   const [apidata, setApidata] = useState([])
   const data = useSelector(state => state.api)
-  // const value=data.data.data;
+  // const value;
+  console.log(data.data)
 
   useEffect(() => {
     fetch('http://localhost:5000/category/get-category')
       .then(res => res.json())
-      .then(data => setApidata(data.data))
-    dispatch(getData);
+      .then(data => 
+        {
+          return setApidata(data.data)
+        })
+    dispatch(getData(data.data));
   }, []);
 
   return (

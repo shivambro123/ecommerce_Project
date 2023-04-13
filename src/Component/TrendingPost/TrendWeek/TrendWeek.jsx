@@ -1,6 +1,7 @@
 import React from 'react'
 import './TrendWeekcss.css'
 import megastore_banner_04 from "../../images/megastore_banner_04.jpg"
+import TrendCarousel from './TrendCarousel/TrendCarousel'
 
 const TrendWeek = () => {
   return (
@@ -23,7 +24,9 @@ const TrendWeek = () => {
         <button>SHOP NOW</button>
         </div>
     </div>
-    <div className='trendcarousel'></div>
+    <div className='trendcarousel'>
+        <TrendCarousel/>
+    </div>
     </div>
    </div>
    </>

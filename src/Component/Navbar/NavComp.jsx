@@ -5,9 +5,9 @@ import { useSelector } from 'react-redux'
 
 const NavComp = () => {
     const data = useSelector(state=>state.api)
-    // const value = ;
-    // console.log(value)
-    const [view,setView]=useState('none')
+    const value =data.data.data ;
+    console.log(value)
+    const [view,setView]=useState('block')
     // alert(view)
 
     const categoryButton = () =>{
@@ -24,14 +24,16 @@ const NavComp = () => {
             alt="logo"/>
             </div>
             <div className='input-div'><div className='input_div'>
-                <select>
-              {/* {
-                value.map((val)=>{
+              <div>
+                <select style={{textTransform:'capitalize'}}>
+              { 
+                value?.map((val)=>{ 
                     return <option>{val.name}</option>
-                    // return val
+                 
                 })
-              } */}
+              }
                 </select>
+                </div>
                 <input placeholder='Search Products'/></div><div className='searchdiv'><i class="fa fa-search" aria-hidden="true"></i>  </div> </div>
             <div className='user-div'>
             <i class="fa fa-user-o" aria-hidden="true"></i>
@@ -51,11 +53,11 @@ const NavComp = () => {
         </div>
         <div className='overList' style={{display:`${view}`}}>
             <ul>
-               {/* {
-                data.data.data.map((val)=>{
+               {
+                value?.map((val)=>{
                     return <li style={{textTransform:'capitalize'}}>{val.name}</li>
                 })
-              }  */}
+              } 
     
             </ul>
         </div>

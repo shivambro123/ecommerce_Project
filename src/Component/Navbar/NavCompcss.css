@@ -36,6 +36,7 @@
     height: 100%;
     width: 95%;
     padding: 7px 5px;
+    display: flex;
 }
 .input_div select{
     height: 100%;
